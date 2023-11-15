@@ -4,7 +4,7 @@ import utils.DUtils;
 
 import java.util.Arrays;
 
-public class C04_SearchNumExist {
+public class C04_SearchNumIndex {
 
     public static int binarySearch(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
