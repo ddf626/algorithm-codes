@@ -12,24 +12,23 @@ public class C03_BubbleSort {
         }
 
         int n = nums.length;
-        /*
-        for (int i=0; i<n; i++) {
-            for (int j=n-1; j>i; j--) {
-                if (nums[j-1] > nums[j]) {
-                    DUtils.swap(nums, j-1, j);
-                }
-            }
-        }
-         */
+
+        boolean changed = false;
 
         for (int i=n-1; i>0; i--) {
             // 要把最大的数冒到i位置
             for (int j=0; j<i; j++) {
                 if (nums[j] > nums[j+1]) {
+                    changed = true;
                     DUtils.swap(nums, j, j+1);
                 }
             }
+
+            if (!changed) {
+                break;
+            }
         }
+
     }
 
     public static void main(String[] args) {

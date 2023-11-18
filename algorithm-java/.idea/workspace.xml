@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p02_binary_search/C05_SearchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p02_binary_search/C06_FindPeakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p03_recursive/C07_HanoiTower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p02_binary_search/C04_SearchNumExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p02_binary_search/C04_SearchNumIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p01_base_sort/C03_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p01_base_sort/C03_BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C07_HanoiTower">
+  <component name="RunManager" selected="Application.C03_BubbleSort">
     <configuration name="C03_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p01_base_sort.C03_BubbleSort" />
       <module name="algorithm-java" />
@@ -120,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C03_BubbleSort" />
         <item itemvalue="Application.C07_HanoiTower" />
         <item itemvalue="Application.C06_FindPeakElement" />
         <item itemvalue="Application.C05_SearchRange" />
         <item itemvalue="Application.C04_BinarySearch" />
-        <item itemvalue="Application.C03_BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699946997652</updated>
       <workItem from="1699946999113" duration="6248000" />
-      <workItem from="1700052545996" duration="2857000" />
+      <workItem from="1700052545996" duration="4808000" />
+      <workItem from="1700296350609" duration="3371000" />
     </task>
     <servers />
   </component>
