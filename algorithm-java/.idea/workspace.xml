@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C12_SortColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C13_DutchNationalFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C14_QuickSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C15_QuickSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p04_merge_sort/C11_ReversePair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p04_merge_sort/C11_ReversePair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/DUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,46 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C12_SortColor">
-    <configuration name="C09_MergeSortNotRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p04_merge_sort.C09_MergeSortNotRecursive" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p04_merge_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C10_SmallSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p04_merge_sort.C10_SmallSum" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p04_merge_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C11_ReversePair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p04_merge_sort.C11_ReversePair" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p04_merge_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C16_QuickSort3">
     <configuration name="C12_SortColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C12_SortColor" />
       <module name="algorithm-java" />
@@ -102,12 +65,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p04_merge_sort.MergeSortRecursive" />
+    <configuration name="C13_DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C13_DutchNationalFlag" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ddf.p04_merge_sort.*" />
+          <option name="PATTERN" value="ddf.p05_quick_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C14_QuickSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C14_QuickSort1" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p05_quick_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C15_QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C15_QuickSort2" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p05_quick_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C16_QuickSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C16_QuickSort3" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p05_quick_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C16_QuickSort3" />
+        <item itemvalue="Application.C15_QuickSort2" />
+        <item itemvalue="Application.C14_QuickSort1" />
+        <item itemvalue="Application.C13_DutchNationalFlag" />
         <item itemvalue="Application.C12_SortColor" />
-        <item itemvalue="Application.C11_ReversePair" />
-        <item itemvalue="Application.C10_SmallSum" />
-        <item itemvalue="Application.C09_MergeSortNotRecursive" />
-        <item itemvalue="Application.MergeSortRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +139,8 @@
       <workItem from="1700052545996" duration="4808000" />
       <workItem from="1700296350609" duration="4012000" />
       <workItem from="1700374682775" duration="827000" />
-      <workItem from="1700449976061" duration="10232000" />
+      <workItem from="1700449976061" duration="10874000" />
+      <workItem from="1700473035224" duration="2963000" />
     </task>
     <servers />
   </component>

@@ -25,8 +25,12 @@ public class DUtils {
     }
 
     public static int[] randomArr(int maxLength, int min, int max) {
+        return randomArr(0, maxLength, min, max);
+    }
 
-        int numsLength = random(0, maxLength);
+    public static int[] randomArr(int minLength, int maxLength, int min, int max) {
+
+        int numsLength = random(minLength, maxLength);
 
         int[] nums = new int[numsLength];
 
