@@ -51,8 +51,6 @@ public class C16_QuickSort3 {
             }
         }
 
-        // DUtils.swap(nums, p2++, right);
-
         return new int[] {p1, p2};
     }
 

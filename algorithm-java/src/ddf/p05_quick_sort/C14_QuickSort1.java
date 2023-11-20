@@ -43,14 +43,12 @@ public class C14_QuickSort1 {
         int i = left;
 
         int target = nums[right];
-        while (i < right) {
+        while (i <= right) {
             if (nums[i] <= target) {
                 DUtils.swap(nums, ++p1, i);
             }
             i++;
         }
-
-        DUtils.swap(nums, ++p1, right);
 
         return p1;
     }

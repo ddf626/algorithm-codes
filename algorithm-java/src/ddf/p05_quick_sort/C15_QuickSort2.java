@@ -36,7 +36,7 @@ public class C15_QuickSort2 {
         int target = nums[right];
 
         int p1 = left - 1;
-        int p2 = right;
+        int p2 = right + 1;
 
         int i = left;
         while (i < p2) {
@@ -49,8 +49,6 @@ public class C15_QuickSort2 {
                 DUtils.swap(nums, --p2, i);
             }
         }
-
-        DUtils.swap(nums, p2++, right);
 
         return new int[] {p1, p2};
     }
