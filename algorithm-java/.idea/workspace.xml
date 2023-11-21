@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
+      <change afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C14_DutchNationalFlag2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C13_DutchNationalFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C13_DutchNationalFlag1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C14_QuickSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C15_QuickSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C15_QuickSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C16_QuickSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C16_QuickSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p05_quick_sort/C17_QuickSort3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +57,9 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C16_QuickSort3">
-    <configuration name="C12_SortColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C12_SortColor" />
+  <component name="RunManager" selected="Application.C13_DutchNationalFlag1">
+    <configuration name="C13_DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C13_DutchNationalFlag" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C13_DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C13_DutchNationalFlag" />
+    <configuration name="C13_DutchNationalFlag1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C13_DutchNationalFlag1" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C13_DutchNationalFlag1" />
         <item itemvalue="Application.C16_QuickSort3" />
         <item itemvalue="Application.C15_QuickSort2" />
         <item itemvalue="Application.C14_QuickSort1" />
         <item itemvalue="Application.C13_DutchNationalFlag" />
-        <item itemvalue="Application.C12_SortColor" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +147,7 @@
       <workItem from="1700374682775" duration="827000" />
       <workItem from="1700449976061" duration="10874000" />
       <workItem from="1700473035224" duration="4285000" />
+      <workItem from="1700487428693" duration="3482000" />
     </task>
     <servers />
   </component>

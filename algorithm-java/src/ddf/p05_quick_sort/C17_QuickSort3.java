@@ -5,12 +5,12 @@ import utils.DUtils;
 import java.util.Arrays;
 
 /**
- * 快速排序2.0
- * 选择区域最右侧作为基准，分为两部分：<target  =target   >target
- * 最差时间复杂度：O(n^2)
+ * 快速排序3.0 —— 随机快排
+ * 在nums[left...right]部分随机选取基准，分为两部分：<base  =base   >base
+ * 无法计算最差时间复杂度，平均复杂度O(NlogN)
  */
 
-public class C15_QuickSort2 {
+public class C17_QuickSort3 {
 
     private static void quickSort(int[] nums) {
         if (nums == null || nums.length < 2) {
@@ -33,19 +33,20 @@ public class C15_QuickSort2 {
 
 
     private static int[] partition(int[] nums, int left, int right) {
-        int target = nums[right];
+        int base = nums[DUtils.random(left, right)];
 
         int p1 = left - 1;
+        // int p2 = right;
         int p2 = right + 1;
 
         int i = left;
         while (i < p2) {
-            if (nums[i] < target) {
+            if (nums[i] < base) {
                 DUtils.swap(nums, ++p1, i++);
-            } else if (nums[i] == target) {
+            } else if (nums[i] == base) {
                 i++;
             } else {
-                // nums[i] > target
+                // nums[i] > base
                 DUtils.swap(nums, --p2, i);
             }
         }

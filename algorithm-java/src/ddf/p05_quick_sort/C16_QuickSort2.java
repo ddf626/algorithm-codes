@@ -5,12 +5,12 @@ import utils.DUtils;
 import java.util.Arrays;
 
 /**
- * 快速排序1.0
- * 选择区域最右侧作为基准，分为两部分：<=target   >target
+ * 快速排序2.0
+ * 选择区域最右侧作为基准，分为两部分：<base  =base   >base
  * 最差时间复杂度：O(n^2)
  */
 
-public class C14_QuickSort1 {
+public class C16_QuickSort2 {
 
     private static void quickSort(int[] nums) {
         if (nums == null || nums.length < 2) {
@@ -25,32 +25,32 @@ public class C14_QuickSort1 {
             return;
         }
 
-        int mid = partition(nums, left, right);
+        int[] res = partition(nums, left, right);
 
-        process(nums, left, mid - 1);
-        process(nums, mid + 1, right);
+        process(nums, left, res[0]);
+        process(nums, res[1], right);
     }
 
-    /**
-     * target = nums[right]，将nums[left...right]分成两部分：
-     * <= target         > target
-     *
-     * @return <=target的最后一个区域
-     */
-    private static int partition(int[] nums, int left, int right) {
-        // nums[left ... p1]:  <= 区域
-        int p1 = left - 1;
-        int i = left;
 
-        int target = nums[right];
-        while (i <= right) {
-            if (nums[i] <= target) {
-                DUtils.swap(nums, ++p1, i);
+    private static int[] partition(int[] nums, int left, int right) {
+        int base = nums[right];
+
+        int p1 = left - 1;
+        int p2 = right + 1;
+
+        int i = left;
+        while (i < p2) {
+            if (nums[i] < base) {
+                DUtils.swap(nums, ++p1, i++);
+            } else if (nums[i] == base) {
+                i++;
+            } else {
+                // nums[i] > base
+                DUtils.swap(nums, --p2, i);
             }
-            i++;
         }
 
-        return p1;
+        return new int[] {p1, p2};
     }
 
     public static void main(String[] args) {

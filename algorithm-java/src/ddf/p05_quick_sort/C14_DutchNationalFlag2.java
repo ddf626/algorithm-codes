@@ -4,15 +4,15 @@ import utils.DUtils;
 
 /**
  * 荷兰国旗问题：
- * 给定一个数组nums和一个target，将nums分成三部分：小于target的在左侧，等于target的在中间，大于target的在右侧
+ * 给定一个数组nums和一个base，将nums分成三部分：小于base的在左侧，等于base的在中间，大于base的在右侧
  */
 
-public class C13_DutchNationalFlag {
+public class C14_DutchNationalFlag2 {
 
     /**
-     * @return 一个长度为2的数组，res[0]是最后一个小于target元素的index，res[1]是第一个大于target元素的index
+     * @return 一个长度为2的数组，res[0]是最后一个小于base元素的index，res[1]是第一个大于base元素的index
      */
-    private static int[] dutchNationalFlag(int[] nums, int target) {
+    private static int[] dutchNationalFlag(int[] nums, int base) {
         if (nums == null || nums.length < 1) {
             return new int[] {-1, -1};
         }
@@ -24,12 +24,12 @@ public class C13_DutchNationalFlag {
 
         int i = 0;
         while (i < right) {
-            if (nums[i] < target) {
+            if (nums[i] < base) {
                 DUtils.swap(nums, ++left, i++);
-            } else if (nums[i] == target) {
+            } else if (nums[i] == base) {
                 i++;
             } else {
-                // nums[i] > target
+                // nums[i] > base
                 DUtils.swap(nums, --right, i);
             }
         }
@@ -37,24 +37,24 @@ public class C13_DutchNationalFlag {
         return new int[] {left, right};
     }
 
-    private static boolean check(int[] nums, int target, int[] res) {
+    private static boolean check(int[] nums, int base, int[] res) {
         int left = res[0];
         int right = res[1];
 
         for (int i=0; i<left; i++) {
-            if (nums[i] >= target) {
+            if (nums[i] >= base) {
                 return false;
             }
         }
 
         for (int i=left+1; i<right; i++) {
-            if (nums[i] != target) {
+            if (nums[i] != base) {
                 return false;
             }
         }
 
         for (int i=right; i<nums.length; i++) {
-            if (nums[i] <= target) {
+            if (nums[i] <= base) {
                 return false;
             }
         }
@@ -70,12 +70,12 @@ public class C13_DutchNationalFlag {
         for (int i=0; i<times; i++) {
             int[] nums = DUtils.randomArr(1, maxLength, Integer.MIN_VALUE, Integer.MAX_VALUE);
 
-            int target = nums[nums.length - 1];
+            int base = nums[nums.length - 1];
             int[] originNums = DUtils.copyArr(nums);
 
-            int[] res = dutchNationalFlag(nums, target);
+            int[] res = dutchNationalFlag(nums, base);
 
-            if (!check(nums, target, res)) {
+            if (!check(nums, base, res)) {
                 System.out.print("err, origin num = ");
                 DUtils.printArr(originNums);
                 ok = false;
