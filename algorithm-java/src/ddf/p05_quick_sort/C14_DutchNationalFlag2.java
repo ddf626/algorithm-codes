@@ -19,41 +19,41 @@ public class C14_DutchNationalFlag2 {
 
         int n = nums.length;
 
-        // nums[0...left] 小于区，nums[left+1 ... right-1]等于区，nums[right...n-1]大于区
-        int left = -1, right = n;
+        // nums[0...p1] 小于区，nums[p1+1 ... p2-1]等于区，nums[p2...n-1]大于区
+        int p1 = -1, p2 = n;
 
         int i = 0;
-        while (i < right) {
+        while (i < p2) {
             if (nums[i] < base) {
-                DUtils.swap(nums, ++left, i++);
+                DUtils.swap(nums, ++p1, i++);
             } else if (nums[i] == base) {
                 i++;
             } else {
                 // nums[i] > base
-                DUtils.swap(nums, --right, i);
+                DUtils.swap(nums, --p2, i);
             }
         }
 
-        return new int[] {left, right};
+        return new int[] {p1, p2};
     }
 
     private static boolean check(int[] nums, int base, int[] res) {
-        int left = res[0];
-        int right = res[1];
+        int p1 = res[0];
+        int p2 = res[1];
 
-        for (int i=0; i<left; i++) {
+        for (int i=0; i<p1; i++) {
             if (nums[i] >= base) {
                 return false;
             }
         }
 
-        for (int i=left+1; i<right; i++) {
+        for (int i=p1+1; i<p2; i++) {
             if (nums[i] != base) {
                 return false;
             }
         }
 
-        for (int i=right; i<nums.length; i++) {
+        for (int i=p2; i<nums.length; i++) {
             if (nums[i] <= base) {
                 return false;
             }

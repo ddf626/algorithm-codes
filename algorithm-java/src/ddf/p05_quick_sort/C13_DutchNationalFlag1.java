@@ -19,27 +19,27 @@ public class C13_DutchNationalFlag1 {
 
         int n = nums.length;
 
-        // nums[0...left] 小于区，nums[left+1 ... n-1]等于区，nums[left+1...n-1]大于区
-        int left = -1;
+        // nums[0...p] 小于区，nums[p+1 ... n-1]等于区，nums[p+1...n-1]大于区
+        int p = -1;
 
         for (int i=0; i<n; i++) {
             if (nums[i] <= base) {
-                DUtils.swap(nums, ++left, i);
+                DUtils.swap(nums, ++p, i);
             }
         }
 
-        return left;
+        return p;
     }
 
-    private static boolean check(int[] nums, int base, int left) {
+    private static boolean check(int[] nums, int base, int p) {
 
-        for (int i=0; i<left; i++) {
+        for (int i=0; i<p; i++) {
             if (nums[i] > base) {
                 return false;
             }
         }
 
-        for (int i=left+1; i<nums.length; i++) {
+        for (int i=p+1; i<nums.length; i++) {
             if (nums[i] <= base) {
                 return false;
             }
