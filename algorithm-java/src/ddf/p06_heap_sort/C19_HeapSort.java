@@ -60,15 +60,7 @@ public class C19_HeapSort {
             int[] numsCopy = DUtils.copyArr(nums);
             int[] originNums = DUtils.copyArr(nums);
 
-            try {
-                heapSort(nums);
-            } catch (Exception e) {
-                System.out.print("Exception occur, origin num = ");
-                DUtils.printArr(originNums);
-                ok = false;
-                e.printStackTrace();
-                break;
-            }
+            heapSort(nums);
             Arrays.sort(numsCopy);
 
             if (!DUtils.compare(nums, numsCopy)) {
