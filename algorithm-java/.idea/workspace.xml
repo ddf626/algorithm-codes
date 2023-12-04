@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C22_MonotonicStack_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C23_MonotonicStack_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C24_LargestRectangleArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/DUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Y9o8fSvWYX47c9fqIXFBUQ6blt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -150,7 +152,7 @@
       <workItem from="1700640016567" duration="188000" />
       <workItem from="1701088246995" duration="2713000" />
       <workItem from="1701586217849" duration="9564000" />
-      <workItem from="1701657526806" duration="7920000" />
+      <workItem from="1701657526806" duration="9767000" />
     </task>
     <servers />
   </component>
