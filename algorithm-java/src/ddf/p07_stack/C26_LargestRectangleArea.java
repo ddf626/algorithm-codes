@@ -16,7 +16,7 @@ import java.util.Stack;
  * 单调栈的应用，寻找左侧和右侧的首个小于元素，k1, k2，则以arr[i]作为高的矩形面积：(k2 - k1 + 1) * arr[i]
  * 找出这个过程中的最大值
  */
-public class C24_LargestRectangleArea {
+public class C26_LargestRectangleArea {
 
     public int largestRectangleArea(int[] heights) {
 
@@ -73,7 +73,7 @@ public class C24_LargestRectangleArea {
     }
 
     public static void main(String[] args) {
-        C24_LargestRectangleArea s = new C24_LargestRectangleArea();
+        C26_LargestRectangleArea s = new C26_LargestRectangleArea();
         System.out.println(s.largestRectangleArea(new int[]{2, 4}));
         System.out.println(s.largestRectangleArea(new int[]{2,1,5,6,2,3}));
     }

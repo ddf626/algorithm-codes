@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C25_DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C22_TwoStackToQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p07_stack/C22_MonotonicStack_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C23_MonotonicStack_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p07_stack/C23_MonotonicStack_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C24_MonotonicStack_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p07_stack/C24_LargestRectangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C26_LargestRectangleArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +61,9 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C25_DailyTemperatures">
-    <configuration name="C21_MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C21_MinStack" />
+  <component name="RunManager" selected="Application.C22_TwoStackToQueue">
+    <configuration name="C22_MonotonicStack_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C22_MonotonicStack_01" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C22_MonotonicStack_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C22_MonotonicStack_01" />
+    <configuration name="C22_TwoStackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C22_TwoStackToQueue" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
@@ -97,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C24_LargestRectangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C24_LargestRectangleArea" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p07_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C25_DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C25_DailyTemperatures" />
       <module name="algorithm-java" />
@@ -123,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C26_LargestRectangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C26_LargestRectangleArea" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p07_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C22_TwoStackToQueue" />
         <item itemvalue="Application.C25_DailyTemperatures" />
-        <item itemvalue="Application.C24_LargestRectangleArea" />
+        <item itemvalue="Application.C26_LargestRectangleArea" />
         <item itemvalue="Application.C23_MonotonicStack_02" />
         <item itemvalue="Application.C22_MonotonicStack_01" />
-        <item itemvalue="Application.C21_MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +155,7 @@
       <workItem from="1700640016567" duration="188000" />
       <workItem from="1701088246995" duration="2713000" />
       <workItem from="1701586217849" duration="9564000" />
-      <workItem from="1701657526806" duration="12632000" />
+      <workItem from="1701657526806" duration="15514000" />
     </task>
     <servers />
   </component>

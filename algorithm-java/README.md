@@ -6,8 +6,8 @@
 |                                <a href="https://leetcode.cn/problems/sort-colors/description/">leetcode75.颜色分类</a>                                |     ddf.p05_quick_sort.C12_SortColor      |
 |                                  <a href="https://leetcode.cn/problems/valid-parentheses">leetcode20. 有效的括号</a>                                   |    ddf.p07_stack.C20_ValidParentheses     |
 |                                       <a href="https://leetcode.cn/problems/min-stack">leetcode 155.最小栈</a>                                       |        ddf.p07_stack.C21_MinStack         |
-|                    <a href="https://leetcode.cn/problems/largest-rectangle-in-histogram/description">leetcode 84.柱状图中最大的矩形</a>                    |  ddf.p07_stack.C24_LargestRectangleArea   |
-|                           <a href="https://leetcode.cn/problems/daily-temperatures/description>leetcode"> 739.每日温度</a>                            |ddf.p07_stack.C25_DailyTemperatures|
+|                    <a href="https://leetcode.cn/problems/largest-rectangle-in-histogram/description">leetcode 84.柱状图中最大的矩形</a>                    |  ddf.p07_stack.C26_LargestRectangleArea   |
+|                           <a href="https://leetcode.cn/problems/daily-temperatures/description>leetcode"> 739.每日温度</a>                            |    ddf.p07_stack.C25_DailyTemperatures    |
 
 
 

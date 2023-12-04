@@ -2,46 +2,59 @@ package ddf.p07_stack;
 
 import utils.DUtils;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 /**
- * 单调栈结构(无重复元素版本)
- * 给定一个数组，返回数组中每一个元素左侧和右侧的首个小于元素
+ * 单调栈结构(有重复元素版本)
  */
-public class C22_MonotonicStack_01 {
+public class C24_MonotonicStack_02 {
 
-    /**
-     * arr中没有重复元素，求数组中每一个元素左侧和右侧的首个小于元素
-     * res[0][0] arr[0]的左侧首个小于元素
-     * res[0][1] arr[0]的右侧首个小于元素
-     */
     public static int[][] getLeftAndRightFirstLtEle(int[] arr) {
-        Stack<Integer> stack = new Stack<>();
+        int n = arr.length;
+        int[][] res = new int[n][2];
 
-        int[][] res = new int[arr.length][2];
+        Stack<List<Integer>> stack = new Stack<>();
 
         for (int i=0; i<arr.length; i++) {
-            if (stack.isEmpty() || arr[stack.peek()] < arr[i]) {
-                stack.push(i);
+            if (stack.isEmpty() || arr[stack.peek().get(0)] < arr[i]) {
+                stack.push(newList(i));
                 continue;
             }
 
-            while (!stack.isEmpty() && arr[stack.peek()] > arr[i]) {
-                int pop = stack.pop();
-                res[pop][0] = stack.isEmpty() ? -1 : stack.peek();
-                res[pop][1] = i;
+            if (arr[stack.peek().get(0)] == arr[i]) {
+                stack.peek().add(i);
+                continue;
             }
 
-            stack.push(i);
+            while (!stack.isEmpty() && arr[stack.peek().get(0)] > arr[i]) {
+                List<Integer> pop = stack.pop();
+
+                for (int k : pop) {
+                    res[k][1] = i;
+                    res[k][0] = stack.isEmpty() ? -1 : stack.peek().get(stack.peek().size() - 1);
+                }
+            }
+            stack.push(newList(i));
         }
 
         while (!stack.isEmpty()) {
-            int pop = stack.pop();
-            res[pop][0] = stack.isEmpty() ? -1 : stack.peek();
-            res[pop][1] = -1;
+            List<Integer> pop = stack.pop();
+
+            for (int k : pop) {
+                res[k][1] = -1;
+                res[k][0] = stack.isEmpty() ? -1 : stack.peek().get(stack.peek().size() - 1);
+            }
         }
 
         return res;
+    }
+
+    public static List<Integer> newList(int i) {
+        List<Integer> list = new ArrayList<>();
+        list.add(i);
+        return list;
     }
 
     public static int[][] compare(int[] arr) {
@@ -98,6 +111,5 @@ public class C22_MonotonicStack_01 {
             System.out.println("ok!");
         }
     }
-
 
 }
