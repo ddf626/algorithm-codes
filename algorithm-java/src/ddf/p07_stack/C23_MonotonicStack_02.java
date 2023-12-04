@@ -11,7 +11,6 @@ import java.util.Stack;
  */
 public class C23_MonotonicStack_02 {
 
-
     public static int[][] getLeftAndRightFirstLtEle(int[] arr) {
         int n = arr.length;
         int[][] res = new int[n][2];
