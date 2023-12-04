@@ -1,5 +1,8 @@
 package utils;
 
+import java.util.Arrays;
+import java.util.HashSet;
+
 public class DUtils {
 
     /**
@@ -22,6 +25,22 @@ public class DUtils {
         // Math.random() * (diff + 1) -> [0, diff + 1)
         // (int) Math.random() * (diff + 1) -> [0, diff]
         return min + (int) (Math.random() * (diff + 1));
+    }
+
+    public static int[] randomUniqueArr(int maxLength, int min, int max) {
+        int[] arr = randomArr(0, maxLength, min, max);
+
+        HashSet<Integer> set = new HashSet<>();
+        Arrays.stream(arr).forEach(set::add);
+
+        int[] res = new int[set.size()];
+
+        int i = 0;
+        for (int n : set) {
+            res[i++] = n;
+        }
+
+        return res;
     }
 
     public static int[] randomArr(int maxLength, int min, int max) {
@@ -74,6 +93,33 @@ public class DUtils {
 
         for (int i=0; i<n1; i++) {
             if (nums1[i] != nums2[i]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean compare(int[][] nums1, int[][] nums2) {
+        if (nums1 == null && nums2 == null) {
+            return true;
+        }
+
+        if (nums1 == null || nums2 == null) {
+            return false;
+        }
+
+        int n1 = nums1.length;
+        int n2 = nums2.length;
+
+        if (n1 != n2) {
+            return false;
+        }
+
+        for (int i=0; i<n1; i++) {
+            int[] nn1 = nums1[i];
+            int[] nn2 = nums2[i];
+            if (!compare(nn1, nn2)) {
                 return false;
             }
         }

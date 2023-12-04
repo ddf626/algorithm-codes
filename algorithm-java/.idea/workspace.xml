@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack_queue/C20_ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack_queue/C21_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C22_MonotonicStack_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C23_MonotonicStack_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C19_HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C19_HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/DUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,56 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C21_MinStack">
-    <configuration name="C14_DutchNationalFlag2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p05_quick_sort.C14_DutchNationalFlag2" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p05_quick_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C18_MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p06_heap_sort.C18_MaxHeap" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p06_heap_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C23_MonotonicStack_02">
     <configuration name="C19_HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p06_heap_sort.C19_HeapSort" />
       <module name="algorithm-java" />
@@ -122,13 +96,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C22_MonotonicStack_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C22_MonotonicStack_01" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p07_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C23_MonotonicStack_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C23_MonotonicStack_02" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p07_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C23_MonotonicStack_02" />
+        <item itemvalue="Application.C22_MonotonicStack_01" />
         <item itemvalue="Application.C21_MinStack" />
         <item itemvalue="Application.C20_ValidParentheses" />
         <item itemvalue="Application.C19_HeapSort" />
-        <item itemvalue="Application.C18_MaxHeap" />
-        <item itemvalue="Application.C14_DutchNationalFlag2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,8 @@
       <workItem from="1700487428693" duration="7810000" />
       <workItem from="1700640016567" duration="188000" />
       <workItem from="1701088246995" duration="2713000" />
-      <workItem from="1701586217849" duration="7320000" />
+      <workItem from="1701586217849" duration="9564000" />
+      <workItem from="1701657526806" duration="7920000" />
     </task>
     <servers />
   </component>
