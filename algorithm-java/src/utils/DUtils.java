@@ -146,4 +146,13 @@ public class DUtils {
         System.out.print("]\n");
     }
 
+    public static void printLinkedList(ListNode node) {
+        while (node != null) {
+            System.out.print(node.val + " -> ");
+            node = node.next;
+        }
+
+        System.out.println("null");
+    }
+
 }

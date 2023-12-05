@@ -2,6 +2,9 @@ package ddf.p09_linked_list;
 
 import utils.ListNode;
 
+/**
+ * <a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/description">leetcode 160.相交链表</a>
+ */
 public class C29_IntersectionOfTwoLinkedLists {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

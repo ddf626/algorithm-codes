@@ -8,8 +8,12 @@
 |                                       <a href="https://leetcode.cn/problems/min-stack">leetcode 155.最小栈</a>                                       |        ddf.p07_stack.C21_MinStack         |
 |                    <a href="https://leetcode.cn/problems/largest-rectangle-in-histogram/description">leetcode 84.柱状图中最大的矩形</a>                    |  ddf.p07_stack.C26_LargestRectangleArea   |
 |                           <a href="https://leetcode.cn/problems/daily-temperatures/description>leetcode"> 739.每日温度</a>                            |    ddf.p07_stack.C25_DailyTemperatures    |
-|                           <a href="https://leetcode.cn/problems/single-number/">leetcode 136.只出现一次的数字</a>                            |    ddf.p08_bit_op.C27_SingleNumber    |
-|                           <a href="https://leetcode.cn/problems/single-number-iii/description/">leetcode 260.只出现一次的数字3</a>                            |    ddf.p08_bit_op.C28_SingleNumber3    |
+|                                  <a href="https://leetcode.cn/problems/single-number/">leetcode 136.只出现一次的数字</a>                                  |    ddf.p08_bit_op.C27_SingleNumber    |
+|                         <a href="https://leetcode.cn/problems/single-number-iii/description/">leetcode 260.只出现一次的数字3</a>                          |    ddf.p08_bit_op.C28_SingleNumber3    |
+|                     <a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/description">leetcode 160.相交链表</a>                     |ddf.p09_linked_list.C29_IntersectionOfTwoLinkedLists|
+|                           <a href="https://leetcode.cn/problems/reverse-linked-list/description/">leetcode 206.反转链表</a>                           |ddf.p09_linked_list.C30_ReverseLinkedList|
+
+
 
 
 
