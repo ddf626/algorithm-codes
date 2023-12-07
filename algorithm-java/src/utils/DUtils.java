@@ -155,4 +155,20 @@ public class DUtils {
         System.out.println("null");
     }
 
+    public static ListNode buildLinkedList(int[] arr) {
+        if (arr == null || arr.length < 1) {
+            return null;
+        }
+
+        ListNode head = new ListNode(0);
+        ListNode cur = head;
+
+        for (int n : arr) {
+            cur.next = new ListNode(n);
+            cur = cur.next;
+        }
+
+        return head.next;
+    }
+
 }
