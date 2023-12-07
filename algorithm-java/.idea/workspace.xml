@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C31_PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C32_LinedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C33_LinkedListCycle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C34_MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C35_AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p09_linked_list/C36_RemoveNthNodeFromEndOfList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/DUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +58,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C35_AddTwoNumbers">
-    <configuration name="C29_IntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p09_linked_list.C29_IntersectionOfTwoLinkedLists" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p09_linked_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C36_RemoveNthNodeFromEndOfList">
     <configuration name="C30_ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p09_linked_list.C30_ReverseLinkedList" />
       <module name="algorithm-java" />
@@ -129,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C36_RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p09_linked_list.C36_RemoveNthNodeFromEndOfList" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p09_linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C36_RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.C35_AddTwoNumbers" />
         <item itemvalue="Application.C34_MergeTwoSortedLists" />
         <item itemvalue="Application.C31_PalindromeLinkedList" />
         <item itemvalue="Application.C30_ReverseLinkedList" />
-        <item itemvalue="Application.C29_IntersectionOfTwoLinkedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +156,22 @@
       <workItem from="1701828480263" duration="339000" />
       <workItem from="1701828835683" duration="198000" />
       <workItem from="1701829048278" duration="1006000" />
-      <workItem from="1701843290230" duration="8951000" />
+      <workItem from="1701843290230" duration="10515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ddf/p09_linked_list/C36_RemoveNthNodeFromEndOfList.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
