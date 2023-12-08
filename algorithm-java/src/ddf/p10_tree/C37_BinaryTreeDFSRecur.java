@@ -23,26 +23,26 @@ public class C37_BinaryTreeDFSRecur {
     /**
      * 中序遍历二叉树：左子树 -> 根节点 -> 右子树
      */
-    public static void midOrder(TreeNode node) {
+    public static void inOrder(TreeNode node) {
         if (node == null) {
             return;
         }
 
-        midOrder(node.left);
+        inOrder(node.left);
         System.out.print(node.val + "   ");
-        midOrder(node.right);
+        inOrder(node.right);
     }
 
     /**
      * 中序遍历二叉树：左子树 -> 右子树 -> 根节点
      */
-    public static void afterOrder(TreeNode node) {
+    public static void postOrder(TreeNode node) {
         if (node == null) {
             return;
         }
 
-        afterOrder(node.left);
-        afterOrder(node.right);
+        postOrder(node.left);
+        postOrder(node.right);
         System.out.print(node.val + "   ");
     }
 
@@ -59,11 +59,11 @@ public class C37_BinaryTreeDFSRecur {
 
         System.out.println("\n-----");
 
-        midOrder(root);
+        inOrder(root);
 
         System.out.println("\n-----");
 
-        afterOrder(root);
+        postOrder(root);
 
     }
 
