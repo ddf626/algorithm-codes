@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C39_BinaryTreeBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C40_RightSideView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C37_BinaryTreeDFSRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C37_BinaryTreeDFSRecur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C38_BinaryTreeDFSNotRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C38_BinaryTreeDFSNotRecur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C18_MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C18_MaxHeap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +58,13 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C40_RightSideView">
-    <configuration name="C36_RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p09_linked_list.C36_RemoveNthNodeFromEndOfList" />
+  <component name="RunManager" selected="Application.C18_MaxHeap">
+    <configuration name="C18_MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p06_heap_sort.C18_MaxHeap" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ddf.p09_linked_list.*" />
+          <option name="PATTERN" value="ddf.p06_heap_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C18_MaxHeap" />
         <item itemvalue="Application.C40_RightSideView" />
         <item itemvalue="Application.C39_BinaryTreeBFS" />
         <item itemvalue="Application.C38_BinaryTreeDFSNotRecur" />
         <item itemvalue="Application.C37_BinaryTreeDFSRecur" />
-        <item itemvalue="Application.C36_RemoveNthNodeFromEndOfList" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,7 @@
       <workItem from="1701828480263" duration="339000" />
       <workItem from="1701828835683" duration="198000" />
       <workItem from="1701829048278" duration="1006000" />
-      <workItem from="1701843290230" duration="21436000" />
+      <workItem from="1701843290230" duration="28628000" />
     </task>
     <servers />
   </component>
@@ -174,11 +170,6 @@
           <url>file://$PROJECT_DIR$/src/ddf/p09_linked_list/C36_RemoveNthNodeFromEndOfList.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ddf/p10_tree/C40_RightSideView.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

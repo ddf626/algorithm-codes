@@ -53,10 +53,11 @@ public class C18_MaxHeap {
 
     /**
      * 向arr[i]位置插入一个数字n，从这个节点开始不断上浮，直到满足大根堆的标准
+     * 从i位置向上看，不断的和自己的父节点pk，直到无法比父节点更大，或自己已经是整棵树的根节点为止
      */
     public void heapInsert(int[] arr, int i) {
         // 不断和父节点比较，直到无法比父节点更大，或自己已经是整棵树的根节点为止
-        while (i != 0 && arr[i] > arr[(i - 1) / 2]) {
+        while (arr[i] > arr[(i - 1) / 2]) {
             DUtils.swap(arr, i, (i - 1) / 2);
             i = (i - 1) / 2;
         }
