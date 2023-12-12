@@ -12,8 +12,15 @@ public class C19_HeapSort {
         }
 
         // 1. 建堆
+        /*
         for (int i=arr.length - 1; i>=0; i--) {
             heapify(arr, i, arr.length);
+        }
+         */
+
+        // heapSize: i+1
+        for (int i=0; i<arr.length; i++) {
+            heapInsert(arr, i);
         }
 
         int heapSize = arr.length;
