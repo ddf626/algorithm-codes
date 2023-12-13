@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C41_MaxDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C42_InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C43_MergeKLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C19_HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C19_HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,7 @@
       <workItem from="1701828835683" duration="198000" />
       <workItem from="1701829048278" duration="1006000" />
       <workItem from="1701843290230" duration="33963000" />
-      <workItem from="1702347221143" duration="2929000" />
+      <workItem from="1702347221143" duration="5205000" />
     </task>
     <servers />
   </component>
