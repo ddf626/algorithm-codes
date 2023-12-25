@@ -23,6 +23,12 @@
 |                           <a href="https://leetcode.cn/problems/invert-binary-tree">leetcode 226.翻转二叉树</a>                           |ddf.p10_tree.C42_InvertBinaryTree|
 |                           <a href="https://leetcode.cn/problems/merge-k-sorted-lists/description">leetcode 23.合并K个升序链表</a>                           |ddf.p06_heap_sort.C43_MergeKLists|
 |                           <a href="https://leetcode.cn/problems/symmetric-tree/description>leetcode101.对称二叉树</a>                           |ddf.p10_tree.C44_SymmetricTree|
+|                           <a href="https://leetcode.cn/problems/diameter-of-binary-tree">leetcode 543.二叉树的直径</a>                           |ddf.p10_tree.C45_DiameterOfBinaryTree|
+|                           <a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree>leetcode 108.将有序数组转换为二叉搜索树</a>                           |ddf.p10_tree.C46_SortedArrayToBST|
+|                           <a href="https://leetcode.cn/problems/validate-binary-search-tree">leetcode 98.验证二叉搜索树</a>                           |ddf.p10_tree.C47_ValidateBinarySearchTree|
+|                           <a href="https://leetcode.cn/problems/kth-smallest-element-in-a-bst">230.二叉搜索树中第K小的元素</a>                           |ddf.p10_tree.C48_KthSmallestElementInABst|
+|                           <a href="https://leetcode.cn/problems/flatten-binary-tree-to-linked-list">leetcode 114.二叉树展开为链表</a>                           |ddf.p10_tree.C49_FlattenBinaryTreeToLinkedList|
+|                           <a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal">leetcode 105.从前序与中序遍历序列构造二叉树</a>                           |ddf.p10_tree.C50_BuildTree|
 
 
 
