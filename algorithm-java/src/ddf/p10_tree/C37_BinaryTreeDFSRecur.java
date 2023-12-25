@@ -34,7 +34,7 @@ public class C37_BinaryTreeDFSRecur {
     }
 
     /**
-     * 中序遍历二叉树：左子树 -> 右子树 -> 根节点
+     * 后序遍历二叉树：左子树 -> 右子树 -> 根节点
      */
     public static void postOrder(TreeNode node) {
         if (node == null) {

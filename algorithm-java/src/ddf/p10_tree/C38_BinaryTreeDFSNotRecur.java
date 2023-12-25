@@ -104,26 +104,25 @@ public class C38_BinaryTreeDFSNotRecur {
         Stack<TreeNode> s = new Stack<>();
         s.push(root);
 
-        TreeNode h = root;
-        TreeNode c = null;
+        TreeNode pre = root;
 
         while (!s.isEmpty()) {
-            c = s.peek();
+            TreeNode cur = s.peek();
 
-            if (c.left != null && h != c.left && h != c.right) {
-                s.push(c.left);
+            if (cur.left != null && pre != cur.left && pre != cur.right) {
+                s.push(cur.left);
                 continue;
             }
 
-            if (c.right != null && h != c.right) {
-                s.push(c.right);
+            if (cur.right != null && pre != cur.right) {
+                s.push(cur.right);
                 continue;
             }
 
             TreeNode pop = s.pop();
             System.out.print(pop.val + "    ");
 
-            h = pop;
+            pre = pop;
         }
     }
 

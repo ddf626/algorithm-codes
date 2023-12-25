@@ -6,6 +6,7 @@ import utils.TreeNode;
  * <a href="https://leetcode.cn/problems/invert-binary-tree">leetcode 226.翻转二叉树</a>
  */
 public class C42_InvertBinaryTree {
+
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
@@ -18,4 +19,5 @@ public class C42_InvertBinaryTree {
 
         return root;
     }
+
 }

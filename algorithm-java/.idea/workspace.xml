@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C44_SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C44_SymmetricTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C44_SlidingWindowMaximum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C37_BinaryTreeDFSRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C37_BinaryTreeDFSRecur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C38_BinaryTreeDFSNotRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C38_BinaryTreeDFSNotRecur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C40_RightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C40_RightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C42_InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C42_InvertBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C44_SlidingWindowMaximum">
+  <component name="RunManager" selected="Application.C44_SymmetricTree">
     <configuration name="C18_MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p06_heap_sort.C18_MaxHeap" />
       <module name="algorithm-java" />
@@ -85,21 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C39_BinaryTreeBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C39_BinaryTreeBFS" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C40_RightSideView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C40_RightSideView" />
+    <configuration name="C38_BinaryTreeDFSNotRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C38_BinaryTreeDFSNotRecur" />
       <module name="algorithm-java" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C44_SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C44_SymmetricTree" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p10_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C44_SymmetricTree" />
+        <item itemvalue="Application.C38_BinaryTreeDFSNotRecur" />
         <item itemvalue="Application.C44_SlidingWindowMaximum" />
         <item itemvalue="Application.C19_HeapSort" />
         <item itemvalue="Application.C18_MaxHeap" />
-        <item itemvalue="Application.C40_RightSideView" />
-        <item itemvalue="Application.C39_BinaryTreeBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +166,10 @@
       <workItem from="1702535053130" duration="7000" />
       <workItem from="1702626130365" duration="2589000" />
       <workItem from="1702781972764" duration="2000" />
-      <workItem from="1702888445262" duration="397000" />
+      <workItem from="1702888445262" duration="1747000" />
+      <workItem from="1703061523233" duration="5830000" />
+      <workItem from="1703142345361" duration="14000" />
+      <workItem from="1703471860173" duration="526000" />
     </task>
     <servers />
   </component>
