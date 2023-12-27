@@ -29,6 +29,9 @@
 |                           <a href="https://leetcode.cn/problems/kth-smallest-element-in-a-bst">230.二叉搜索树中第K小的元素</a>                           |ddf.p10_tree.C48_KthSmallestElementInABst|
 |                           <a href="https://leetcode.cn/problems/flatten-binary-tree-to-linked-list">leetcode 114.二叉树展开为链表</a>                           |ddf.p10_tree.C49_FlattenBinaryTreeToLinkedList|
 |                           <a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal">leetcode 105.从前序与中序遍历序列构造二叉树</a>                           |ddf.p10_tree.C50_BuildTree|
+|                           <a href="https://leetcode.cn/problems/path-sum-iii/description">leetcode 437.路径总和3</a>                           |ddf.p10_tree.C51_PathSum|
+|                           <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree">leetcode 236.二叉树的最近公共祖先</a>                           |ddf.p10_tree.C52_LowestCommonAncestor|
+|                           <a href="https://leetcode.cn/problems/binary-tree-maximum-path-sum">124.二叉树中的最大路径和</a>                           |ddf.p10_tree.C53_MaxPathSum|
 
 
 
