@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C45_DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C46_SortedArrayToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C47_ValidateBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C48_KthSmallestElementInABst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C49_FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C50_BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C51_PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C52_LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C53_MaxPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C50_BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C50_BuildTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,33 +61,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C47_ValidateBinarySearchTree">
-    <configuration name="C38_BinaryTreeDFSNotRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C38_BinaryTreeDFSNotRecur" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C44_SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p06_heap_sort.C44_SlidingWindowMaximum" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p06_heap_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C53_MaxPathSum">
     <configuration name="C44_SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C44_SymmetricTree" />
       <module name="algorithm-java" />
@@ -130,13 +101,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C51_PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C51_PathSum" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p10_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C53_MaxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C53_MaxPathSum" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p10_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C53_MaxPathSum" />
+        <item itemvalue="Application.C51_PathSum" />
         <item itemvalue="Application.C47_ValidateBinarySearchTree" />
         <item itemvalue="Application.C45_DiameterOfBinaryTree" />
         <item itemvalue="Application.C44_SymmetricTree" />
-        <item itemvalue="Application.C38_BinaryTreeDFSNotRecur" />
-        <item itemvalue="Application.C44_SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,9 @@
       <workItem from="1702888445262" duration="1747000" />
       <workItem from="1703061523233" duration="5830000" />
       <workItem from="1703142345361" duration="14000" />
-      <workItem from="1703471860173" duration="15837000" />
+      <workItem from="1703471860173" duration="15969000" />
+      <workItem from="1703555985624" duration="686000" />
+      <workItem from="1703598612595" duration="5777000" />
     </task>
     <servers />
   </component>
