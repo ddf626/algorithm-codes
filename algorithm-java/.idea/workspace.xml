@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai" />
+    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
+      <change afterPath="$PROJECT_DIR$/src/ddf/p11_bst/BSTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p11_bst/C54_BSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,6 +168,9 @@
       <workItem from="1703471860173" duration="15969000" />
       <workItem from="1703555985624" duration="686000" />
       <workItem from="1703598612595" duration="6027000" />
+      <workItem from="1703661439503" duration="6217000" />
+      <workItem from="1703744569393" duration="52000" />
+      <workItem from="1703837495389" duration="5572000" />
     </task>
     <servers />
   </component>
