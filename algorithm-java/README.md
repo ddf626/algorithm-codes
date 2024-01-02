@@ -35,6 +35,8 @@
 |                           <a href="https://leetcode.cn/problems/combinations">leetcode 77.组合</a>                           |ddf.p12_backtrace.C55_Combinations|
 |                           <a href="https://leetcode.cn/problems/combination-sum">leetcode 39.组合总和</a>                           |ddf.p12_backtrace.C56_CombinationSum|
 |                           <a href="https://leetcode.cn/problems/combination-sum-iii">leetcode 216.组合总数3</a>                           |ddf.p12_backtrace.C57_CombinationSum3|
+|                           <a href="https://leetcode.cn/problems/n-queens">leetcode 51.N皇后</a>                           |ddf.p12_backtrace.C58_NQueens|
+|                           <a href="https://leetcode.cn/problems/n-queens-ii">leetcode 52.N皇后2</a>                           |ddf.p12_backtrace.C59_NQueens2|
 
 
 

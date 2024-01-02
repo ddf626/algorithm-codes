@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
+      <change afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C58_NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C59_NQueens2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C44_SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C44_SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p10_tree/C46_SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p10_tree/C46_SortedArrayToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p12_backtrace/C55_Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C55_Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p12_backtrace/C57_CombinationSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C57_CombinationSum3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +60,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C57_CombinationSum3">
-    <configuration name="C53_MaxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C53_MaxPathSum" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C58_NQueens">
     <configuration name="C54_BSTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p11_bst.C54_BSTree" />
       <module name="algorithm-java" />
@@ -128,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C58_NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C58_NQueens" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p12_backtrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C58_NQueens" />
         <item itemvalue="Application.C57_CombinationSum3" />
         <item itemvalue="Application.C56_CombinationSum" />
         <item itemvalue="Application.C55_Combinations" />
         <item itemvalue="Application.C54_BSTree" />
-        <item itemvalue="Application.C53_MaxPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +172,8 @@
       <workItem from="1703661439503" duration="6217000" />
       <workItem from="1703744569393" duration="52000" />
       <workItem from="1703837495389" duration="14317000" />
-      <workItem from="1704177297037" duration="6147000" />
+      <workItem from="1704177297037" duration="6181000" />
+      <workItem from="1704184369941" duration="971000" />
     </task>
     <servers />
   </component>
