@@ -37,6 +37,9 @@
 |                           <a href="https://leetcode.cn/problems/combination-sum-iii">leetcode 216.组合总数3</a>                           |ddf.p12_backtrace.C57_CombinationSum3|
 |                           <a href="https://leetcode.cn/problems/n-queens">leetcode 51.N皇后</a>                           |ddf.p12_backtrace.C58_NQueens|
 |                           <a href="https://leetcode.cn/problems/n-queens-ii">leetcode 52.N皇后2</a>                           |ddf.p12_backtrace.C59_NQueens2|
+|                           <a href="https://leetcode.cn/problems/permutations">leetcode 46.全排列</a>                           |ddf.p12_backtrace.C60_Permutations|
+|                           <a href="https://leetcode.cn/problems/subsets">leetcode 78.子集</a>                           |ddf.p12_backtrace.C61_SubSets|
+|                           <a href="https://leetcode.cn/problems/letter-combinations-of-a-phone-number">17.电话号码的字母组合</a>                           |ddf.p12_backtrace.C62_LetterCombinations|
 
 
 
