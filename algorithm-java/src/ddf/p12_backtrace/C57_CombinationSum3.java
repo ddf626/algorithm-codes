@@ -1,10 +1,8 @@
 package ddf.p12_backtrace;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
 
 /**
  * <a href="https://leetcode.cn/problems/combination-sum-iii">leetcode 216.组合总数3</a>

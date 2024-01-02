@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <a href="https://leetcode.cn/problems/combinations>leetcode 77.组合</a>
+ * <a href="https://leetcode.cn/problems/combinations">leetcode 77.组合</a>
  */
 public class C55_Combinations {
 

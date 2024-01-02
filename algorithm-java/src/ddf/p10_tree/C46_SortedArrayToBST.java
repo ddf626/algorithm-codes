@@ -3,7 +3,7 @@ package ddf.p10_tree;
 import utils.TreeNode;
 
 /**
- * <a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree>leetcode 108.将有序数组转换为二叉搜索树</a>
+ * <a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree">leetcode 108.将有序数组转换为二叉搜索树</a>
  */
 public class C46_SortedArrayToBST {
 

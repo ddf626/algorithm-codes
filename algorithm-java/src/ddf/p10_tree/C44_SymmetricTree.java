@@ -3,7 +3,7 @@ package ddf.p10_tree;
 import utils.TreeNode;
 
 /**
- * <a href="https://leetcode.cn/problems/symmetric-tree/description>leetcode101.对称二叉树</a>
+ * <a href="https://leetcode.cn/problems/symmetric-tree/description">leetcode101.对称二叉树</a>
  *
  * 给你一个二叉树的根节点 root ， 检查它是否轴对称。
  */
