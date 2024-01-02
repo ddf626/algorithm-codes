@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
+      <change afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C55_Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C56_CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p12_backtrace/C57_CombinationSum3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p11_bst/BSTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p11_bst/BSTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p11_bst/C54_BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p11_bst/C54_BSTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,46 +60,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C54_BSTree">
-    <configuration name="C45_DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C45_DiameterOfBinaryTree" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C47_ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C47_ValidateBinarySearchTree" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C51_PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C51_PathSum" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p10_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C57_CombinationSum3">
     <configuration name="C53_MaxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p10_tree.C53_MaxPathSum" />
       <module name="algorithm-java" />
@@ -125,13 +87,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C55_Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C55_Combinations" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p12_backtrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C56_CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C56_CombinationSum" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p12_backtrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C57_CombinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C57_CombinationSum3" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p12_backtrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C57_CombinationSum3" />
+        <item itemvalue="Application.C56_CombinationSum" />
+        <item itemvalue="Application.C55_Combinations" />
         <item itemvalue="Application.C54_BSTree" />
         <item itemvalue="Application.C53_MaxPathSum" />
-        <item itemvalue="Application.C51_PathSum" />
-        <item itemvalue="Application.C47_ValidateBinarySearchTree" />
-        <item itemvalue="Application.C45_DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +172,7 @@
       <workItem from="1703661439503" duration="6217000" />
       <workItem from="1703744569393" duration="52000" />
       <workItem from="1703837495389" duration="14317000" />
-      <workItem from="1704177297037" duration="1078000" />
+      <workItem from="1704177297037" duration="5860000" />
     </task>
     <servers />
   </component>
