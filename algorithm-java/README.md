@@ -44,6 +44,7 @@
 |                                                       <a href="https://leetcode.cn/problems/word-search">leetcode 79.单词搜索</a>                                                        |                       [p12_backtrace.C64_WordSearch](src/ddf/p12_backtrace/C64_WordSearch.java)                        |
 |                                                <a href="https://leetcode.cn/problems/palindrome-partitioning">leetcode 131.分割回文串</a>                                                 |            [p12_backtrace.C65_PalindromePartition](src/ddf/p12_backtrace/C65_PalindromePartition.java)            |
 |                                           <a href="https://leetcode.cn/problems/remove-nodes-from-linked-list">leetcode 2487.从链表中移除节点</a>                                            |                  [p09_linked_list.C66_RemoveNodes](src/ddf/p09_linked_list/C66_RemoveNodes.java)                  |
+|                                           <a href="https://leetcode.cn/problems/first-missing-positive">leetcode 41.缺失的第一个正数</a>                                            |                  [p13_other_lc.C67_FirstMissingPositive](src/ddf/p13_other_lc/C67_FirstMissingPositive.java)                  |
 
 
 
