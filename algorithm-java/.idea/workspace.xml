@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p13_other_lc/C68_MaxRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C69_CanSeePersonsCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,8 @@
       <workItem from="1704184369941" duration="11393000" />
       <workItem from="1704248516764" duration="4447000" />
       <workItem from="1704264305854" duration="3925000" />
-      <workItem from="1704335385736" duration="1296000" />
+      <workItem from="1704335385736" duration="3276000" />
+      <workItem from="1704422539628" duration="457000" />
     </task>
     <servers />
   </component>
@@ -208,11 +210,6 @@
           <url>file://$PROJECT_DIR$/src/ddf/p13_other_lc/C68_MaxRows.java</url>
           <line>8</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ddf/p13_other_lc/C68_MaxRows.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
