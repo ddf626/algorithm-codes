@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C69_CanSeePersonsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C70_TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -176,7 +176,9 @@
       <workItem from="1704248516764" duration="4447000" />
       <workItem from="1704264305854" duration="3925000" />
       <workItem from="1704335385736" duration="3276000" />
-      <workItem from="1704422539628" duration="457000" />
+      <workItem from="1704422539628" duration="540000" />
+      <workItem from="1704424679558" duration="106000" />
+      <workItem from="1704426218772" duration="5792000" />
     </task>
     <servers />
   </component>

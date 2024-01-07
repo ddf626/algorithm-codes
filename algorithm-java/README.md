@@ -47,6 +47,7 @@
 |                                           <a href="https://leetcode.cn/problems/first-missing-positive">leetcode 41.缺失的第一个正数</a>                                            |            [p13_other_lc.C67_FirstMissingPositive](src/ddf/p13_other_lc/C67_FirstMissingPositive.java)           |
 |                                           <a href="https://leetcode.cn/problems/maximum-rows-covered-by-columns">leetcode 2397.被列覆盖的最多行数</a>                                            |                         [p13_other_lc.C68_MaxRows](src/ddf/p13_other_lc/C68_MaxRows.java)                        |
 |                                           <a href="https://leetcode.cn/problems/number-of-visible-people-in-a-queue">leetcode 1944.队列中可以看到的人数</a>                                            |           [p07_stack.C69_CanSeePersonsCount](src/ddf/p07_stack/C69_CanSeePersonsCount.java)           |
+|                                           <a href="https://leetcode.cn/problems/trapping-rain-water">leetcode 42.接雨水</a>                                            |           [p07_stack.C70_TrappingRainWater](src/ddf/p07_stack/C70_TrappingRainWater.java)           |
 
 
 
