@@ -48,7 +48,8 @@
 |                                           <a href="https://leetcode.cn/problems/maximum-rows-covered-by-columns">leetcode 2397.被列覆盖的最多行数</a>                                            |                         [p13_other_lc.C68_MaxRows](src/ddf/p13_other_lc/C68_MaxRows.java)                         |
 |                                           <a href="https://leetcode.cn/problems/number-of-visible-people-in-a-queue">leetcode 1944.队列中可以看到的人数</a>                                            |                 [p07_stack.C69_CanSeePersonsCount](src/ddf/p07_stack/C69_CanSeePersonsCount.java)                 |
 |                                           <a href="https://leetcode.cn/problems/trapping-rain-water">leetcode 42.接雨水</a>                                            |                  [p07_stack.C70_TrappingRainWater](src/ddf/p07_stack/C70_TrappingRainWater.java)                  |
-|                                           <a href="https://leetcode.cn/problems/extra-characters-in-a-string>leetcode 2707.字符串中的额外字符</a>                                            |                      [p14_dp.C71_MinExtraChar](src/ddf/p14_dp/C71_MinExtraChar.java)                      |
+|                                           <a href="https://leetcode.cn/problems/extra-characters-in-a-string>leetcode 2707.字符串中的额外字符</a>                                            |                          [p14_dp.C71_MinExtraChar](src/ddf/p14_dp/C71_MinExtraChar.java)                          |
+|                                           <a href="https://leetcode.cn/problems/minimum-string-length-after-removing-substrings">leetcode 2696.删除子串后的字符串最小长度</a>                                            |                          [p07_stack.C72_MinimumStringLengthAfterRemoveSubstr](src/ddf/p07_stack/C72_MinimumStringLengthAfterRemoveSubstr.java)                          |
 
 
 

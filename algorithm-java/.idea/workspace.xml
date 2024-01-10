@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p14_dp/C71_MinExtraChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C72_MinimumStringLengthAfterRemoveSubstr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -59,20 +59,7 @@
       <recent name="ddf.p05_quick_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C71_MinExtraChar">
-    <configuration name="C64_WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C64_WordSearch" />
-      <module name="algorithm-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ddf.p12_backtrace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C72_MinimumStringLengthAfterRemoveSubstr">
     <configuration name="C65_PalindromePartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ddf.p12_backtrace.C65_PalindromePartition" />
       <module name="algorithm-java" />
@@ -125,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C72_MinimumStringLengthAfterRemoveSubstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ddf.p07_stack.C72_MinimumStringLengthAfterRemoveSubstr" />
+      <module name="algorithm-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ddf.p07_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C72_MinimumStringLengthAfterRemoveSubstr" />
         <item itemvalue="Application.C71_MinExtraChar" />
         <item itemvalue="Application.C68_MaxRows" />
         <item itemvalue="Application.C66_RemoveNodes" />
         <item itemvalue="Application.C65_PalindromePartition" />
-        <item itemvalue="Application.C64_WordSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +180,7 @@
       <workItem from="1704424679558" duration="106000" />
       <workItem from="1704426218772" duration="5792000" />
       <workItem from="1704769724109" duration="1013000" />
+      <workItem from="1704855647010" duration="2506000" />
     </task>
     <servers />
   </component>
