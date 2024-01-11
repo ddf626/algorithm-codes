@@ -20,56 +20,33 @@ public class C26_LargestRectangleArea {
 
     public int largestRectangleArea(int[] heights) {
 
+        int n = heights.length;
+        Stack<Integer> stack = new Stack<>();
         int res = 0;
-        Stack<List<Integer>> stack = new Stack<>();
 
-        for (int i=0; i<heights.length; i++) {
-            if (stack.isEmpty() || stackTopElement(heights, stack) < heights[i]) {
-                stack.push(newList(i));
-                continue;
+        for (int i=0; i<n; i++) {
+            while (!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
+                int pop = stack.pop();
+
+                int h = heights[pop];
+                int w = i - (stack.isEmpty() ? -1 : stack.peek()) - 1;
+
+                res = Math.max(res, w * h);
             }
 
-            if (stackTopElement(heights, stack) == heights[i]) {
-                addToTopList(i, stack);
-                continue;
-            }
-
-            while (!stack.isEmpty() && stackTopElement(heights, stack) > heights[i]) {
-                List<Integer> pop = stack.pop();
-
-                int curArea = heights[pop.get(0)] * (stack.isEmpty() ? i : (i - topElementLastIndex(stack) - 1));
-                res = Math.max(res, curArea);
-            }
-
-            stack.push(newList(i));
+            stack.push(i);
         }
 
         while (!stack.isEmpty()) {
-            List<Integer> pop = stack.pop();
+            int pop = stack.pop();
 
-            int curArea = heights[pop.get(0)] * (stack.isEmpty() ? heights.length : (heights.length - topElementLastIndex(stack)) - 1);
-            res = Math.max(res, curArea);
+            int h = heights[pop];
+            int w = n - (stack.isEmpty() ? -1 : stack.peek()) - 1;
+
+            res = Math.max(res, w * h);
         }
 
         return res;
-    }
-
-    private List<Integer> newList(int n) {
-        List<Integer> list = new ArrayList<>();
-        list.add(n);
-        return list;
-    }
-
-    private int stackTopElement(int[] arr, Stack<List<Integer>> stack) {
-        return arr[stack.peek().get(0)];
-    }
-
-    private void addToTopList(int i, Stack<List<Integer>> stack) {
-        stack.peek().add(i);
-    }
-
-    private int topElementLastIndex(Stack<List<Integer>> stack) {
-        return stack.peek().get(stack.peek().size() - 1);
     }
 
     public static void main(String[] args) {

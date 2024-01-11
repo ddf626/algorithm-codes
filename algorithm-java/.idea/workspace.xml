@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="reverse pai">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C72_MinimumStringLengthAfterRemoveSubstr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p07_stack/C26_LargestRectangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p07_stack/C26_LargestRectangleArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,11 @@
       <workItem from="1704424679558" duration="106000" />
       <workItem from="1704426218772" duration="5792000" />
       <workItem from="1704769724109" duration="1013000" />
-      <workItem from="1704855647010" duration="2506000" />
+      <workItem from="1704855647010" duration="2544000" />
+      <workItem from="1704873370035" duration="192000" />
+      <workItem from="1704874487013" duration="287000" />
+      <workItem from="1704893921664" duration="476000" />
+      <workItem from="1704963072945" duration="31000" />
     </task>
     <servers />
   </component>
