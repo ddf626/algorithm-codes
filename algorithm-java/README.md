@@ -51,6 +51,8 @@
 |                          <a href="https://leetcode.cn/problems/extra-characters-in-a-string>leetcode 2707.字符串中的额外字符</a>                           |                            [p14_dp.C71_MinExtraChar](src/ddf/p14_dp/C71_MinExtraChar.java)                            |
 |              <a href="https://leetcode.cn/problems/minimum-string-length-after-removing-substrings">leetcode 2696.删除子串后的字符串最小长度</a>               | [p07_stack.C72_MinimumStringLengthAfterRemoveSubstr](src/ddf/p07_stack/C72_MinimumStringLengthAfterRemoveSubstr.java) |
 |                                   <a href="https://leetcode.cn/problems/group-anagrams">leetcode 49.字母异位词分组</a>                                   |                      [p07_stack.C73_GroupAnagrams](src/ddf/p13_other_lc/C73_GroupAnagrams.java)                       |
+|                           <a href="https://leetcode.cn/problems/longest-consecutive-sequence">leetcode 128. 最长连续子序列</a>                           |                 [p07_stack.C74_LongestConsecutive](src/ddf/p13_other_lc/C74_LongestConsecutive.java)                  |
+|                                             <a href="https://leetcode.cn/problems/move-zeroes"">leetcode 283.移动零</a>                                              |                 [p07_stack.C75_MoveZero](src/ddf/p13_other_lc/C75_MoveZero.java)                  |
 
 
 
