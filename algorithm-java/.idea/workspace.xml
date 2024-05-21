@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C72 + C73">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p13_other_lc/C74_LongestConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ddf/p13_other_lc/C75_MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ddf/p13_other_lc/C76_MaxArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +208,7 @@
       <workItem from="1711353497132" duration="59000" />
       <workItem from="1716110119348" duration="8446000" />
       <workItem from="1716188974319" duration="1000" />
-      <workItem from="1716189643009" duration="7237000" />
+      <workItem from="1716189643009" duration="11831000" />
     </task>
     <task id="LOCAL-00001" summary="C72 + C73">
       <option name="closed" value="true" />
