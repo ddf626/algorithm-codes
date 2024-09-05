@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C72 + C73">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p13_other_lc/C76_MaxArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,8 +142,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -208,7 +207,9 @@
       <workItem from="1711353497132" duration="59000" />
       <workItem from="1716110119348" duration="8446000" />
       <workItem from="1716188974319" duration="1000" />
-      <workItem from="1716189643009" duration="11831000" />
+      <workItem from="1716189643009" duration="25152000" />
+      <workItem from="1717293824269" duration="16000" />
+      <workItem from="1725505043480" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="C72 + C73">
       <option name="closed" value="true" />
