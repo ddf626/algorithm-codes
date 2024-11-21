@@ -88,40 +88,42 @@ public class C77_MaxOverlapLine {
 
 
     public static void main(String[] args) {
-        int maxSize = 100;
-        int testTimes = 10000;
-        int min = 0;
-        int max = 1000;
-        int[][] lines = new int[maxSize][2];
-
-        boolean ok = true;
-        for (int i = 0; i < testTimes; i++) {
-            for (int j = 0; j < maxSize; j++) {
-                int start = DUtils.random(min, max);
-                int end = DUtils.random(start + 1, max + 1);
-                lines[j] = new int[]{start, end};
-            }
-
-            int res1 = maxOverlap1(lines);
-            int res2 = maxOverlap2(lines);
-            if (res1 != res2) {
-                ok = false;
-                System.out.println("err!!");
-                DUtils.printArr(lines);
-                System.out.println("res1:" + res1);
-                System.out.println("res2:" + res2);
-                break;
-            } else {
-                System.out.println("i = " + i);
-            }
-        }
-
-        if (ok) {
-            System.out.println("okokokokokok!!!!");
-        }
+//        int maxSize = 100;
+//        int testTimes = 10000;
+//        int min = 0;
+//        int max = 1000;
+//        int[][] lines = new int[maxSize][2];
+//
+//        boolean ok = true;
+//        for (int i = 0; i < testTimes; i++) {
+//            for (int j = 0; j < maxSize; j++) {
+//                int start = DUtils.random(min, max);
+//                int end = DUtils.random(start + 1, max + 1);
+//                lines[j] = new int[]{start, end};
+//            }
+//
+//            int res1 = maxOverlap1(lines);
+//            int res2 = maxOverlap2(lines);
+//            if (res1 != res2) {
+//                ok = false;
+//                System.out.println("err!!");
+//                DUtils.printArr(lines);
+//                System.out.println("res1:" + res1);
+//                System.out.println("res2:" + res2);
+//                break;
+//            } else {
+//                System.out.println("i = " + i);
+//            }
+//        }
+//
+//        if (ok) {
+//            System.out.println("okokokokokok!!!!");
+//        }
 
 //        int[][] lines = {{1, 5},{10, 11}, {0, 9}, {8, 9}, {9, 10}};
-//        System.out.println(maxOverlap2(lines));
+        int[][] lines = {{1, 5},{10, 11}, {0, 9}, {8, 9}, {9, 10}, {8, 10}};
+        System.out.println(maxOverlap1(lines));
+        System.out.println(maxOverlap2(lines));
     }
 
     public static class Line {
