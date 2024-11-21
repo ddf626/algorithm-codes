@@ -146,6 +146,25 @@ public class DUtils {
         System.out.print("]\n");
     }
 
+    public static void printArr(int[][] nums) {
+        if (nums == null) {
+            System.out.println("null");
+            return;
+        }
+
+        if (nums.length == 0) {
+            System.out.println("[]");
+            return;
+        }
+
+        System.out.println("[");
+
+        for (int[] num : nums) {
+            printArr(num);
+        }
+        System.out.print("]\n");
+    }
+
     public static void printLinkedList(ListNode node) {
         while (node != null) {
             System.out.print(node.val + " -> ");
