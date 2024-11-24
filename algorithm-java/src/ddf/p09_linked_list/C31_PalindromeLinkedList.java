@@ -31,6 +31,13 @@ public class C31_PalindromeLinkedList {
         return true;
     }
 
+    // todo 第二种方法，后半侧反转后对比
+    // O(1)空间复杂度
+    public boolean isPalindrome2(ListNode head) {
+        return false;
+    }
+
+
     public static void main(String[] args) {
         ListNode h1 = new ListNode(1);
         h1.next = new ListNode(2);
