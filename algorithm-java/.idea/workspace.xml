@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C77">
+    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C77 test case">
+      <change afterPath="$PROJECT_DIR$/src/ddf/p15_trie/C78_TrieTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C77_MaxOverlapLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p06_heap_sort/C77_MaxOverlapLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,29 +37,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.C73_GroupAnagrams.executor": "Run",
-    "Application.C77_MaxOverlapLine.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alastor/Desktop/desktop-files/algorithm-codes/algorithm-java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.C73_GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C77_MaxOverlapLine.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alastor/Desktop/desktop-files/algorithm-codes/algorithm-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ddf.p05_quick_sort" />
@@ -212,7 +212,8 @@
       <workItem from="1716189643009" duration="25152000" />
       <workItem from="1717293824269" duration="16000" />
       <workItem from="1725505043480" duration="20000" />
-      <workItem from="1732156284938" duration="6247000" />
+      <workItem from="1732156284938" duration="9618000" />
+      <workItem from="1732433559859" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="C72 + C73">
       <option name="closed" value="true" />
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732159526156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="C77 test case">
+      <option name="closed" value="true" />
+      <created>1732172643143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732172643143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="C72 + C73" />
     <MESSAGE value="C77" />
-    <option name="LAST_COMMIT_MESSAGE" value="C77" />
+    <MESSAGE value="C77 test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="C77 test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
