@@ -1,9 +1,13 @@
 package ddf.p15_trie;
 
+/**
+ * <a href="https://leetcode.cn/problems/implement-trie-prefix-tree/">leetcode 208. 实现 Trie (前缀树)</a>
+ */
 public class C78_TrieTree {
 
     TrieNode head;
 
+    // fixme 提交leetcode的时候这里改成 public Trie() {
     public C78_TrieTree() {
         this.head = new TrieNode();
     }

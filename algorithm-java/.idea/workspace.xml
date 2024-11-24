@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C77 test case">
-      <change afterPath="$PROJECT_DIR$/src/ddf/p15_trie/C78_TrieTree.java" afterDir="false" />
+    <list default="true" id="eb957ce8-f74c-442e-901b-5483430425cd" name="Changes" comment="C78 TrieTree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ddf/p15_trie/C78_TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ddf/p15_trie/C78_TrieTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +214,7 @@
       <workItem from="1717293824269" duration="16000" />
       <workItem from="1725505043480" duration="20000" />
       <workItem from="1732156284938" duration="9618000" />
-      <workItem from="1732433559859" duration="743000" />
+      <workItem from="1732433559859" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="C72 + C73">
       <option name="closed" value="true" />
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732172643143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="C78 TrieTree">
+      <option name="closed" value="true" />
+      <created>1732435923499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732435923499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +258,8 @@
     <MESSAGE value="C72 + C73" />
     <MESSAGE value="C77" />
     <MESSAGE value="C77 test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="C77 test case" />
+    <MESSAGE value="C78 TrieTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="C78 TrieTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
