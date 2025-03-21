@@ -3,6 +3,7 @@ package ddf.p06_heap_sort;
 import utils.DUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
@@ -86,44 +87,73 @@ public class C77_MaxOverlapLine {
         return res;
     }
 
+    public static int maxOverlap3(int[][] lines) {
+        int[] left = new int[lines.length];
+        int[] right = new int[lines.length];
+
+        for (int i = 0; i < lines.length; i++) {
+            left[i] = lines[i][0];
+            right[i] = lines[i][1];
+        }
+
+        Arrays.sort(left);
+        Arrays.sort(right);
+
+        int cnt = 0, res = 0, r = 0;
+        for (int l : left) {
+            cnt++;
+            while (r < lines.length && right[r] <= l) {
+                cnt--;
+                r++;
+            }
+
+            res = Math.max(res, cnt);
+        }
+
+        return res;
+    }
+
 
     public static void main(String[] args) {
-//        int maxSize = 100;
-//        int testTimes = 10000;
-//        int min = 0;
-//        int max = 1000;
-//        int[][] lines = new int[maxSize][2];
-//
-//        boolean ok = true;
-//        for (int i = 0; i < testTimes; i++) {
-//            for (int j = 0; j < maxSize; j++) {
-//                int start = DUtils.random(min, max);
-//                int end = DUtils.random(start + 1, max + 1);
-//                lines[j] = new int[]{start, end};
-//            }
-//
-//            int res1 = maxOverlap1(lines);
-//            int res2 = maxOverlap2(lines);
-//            if (res1 != res2) {
-//                ok = false;
-//                System.out.println("err!!");
-//                DUtils.printArr(lines);
-//                System.out.println("res1:" + res1);
-//                System.out.println("res2:" + res2);
-//                break;
-//            } else {
-//                System.out.println("i = " + i);
-//            }
-//        }
-//
-//        if (ok) {
-//            System.out.println("okokokokokok!!!!");
-//        }
+        int maxSize = 100;
+        int testTimes = 10000;
+        int min = 0;
+        int max = 1000;
+        int[][] lines = new int[maxSize][2];
+
+        boolean ok = true;
+        for (int i = 0; i < testTimes; i++) {
+            for (int j = 0; j < maxSize; j++) {
+                int start = DUtils.random(min, max);
+                int end = DUtils.random(start + 1, max + 1);
+                lines[j] = new int[]{start, end};
+            }
+
+            int res1 = maxOverlap1(lines);
+            int res2 = maxOverlap2(lines);
+            int res3 = maxOverlap3(lines);
+            if (res1 != res2 || res1 != res3) {
+                ok = false;
+                System.out.println("err!!");
+                DUtils.printArr(lines);
+                System.out.println("res1:" + res1);
+                System.out.println("res2:" + res2);
+                System.out.println("res3:" + res3);
+                break;
+            } else {
+                System.out.println("i = " + i);
+            }
+        }
+
+        if (ok) {
+            System.out.println("okokokokokok!!!!");
+        }
 
 //        int[][] lines = {{1, 5},{10, 11}, {0, 9}, {8, 9}, {9, 10}};
-        int[][] lines = {{1, 5},{10, 11}, {0, 9}, {8, 9}, {9, 10}, {8, 10}};
-        System.out.println(maxOverlap1(lines));
-        System.out.println(maxOverlap2(lines));
+//        int[][] lines = {{1, 5},{10, 11}, {0, 9}, {8, 9}, {9, 10}, {8, 10}};
+//        System.out.println(maxOverlap1(lines));
+//        System.out.println(maxOverlap2(lines));
+//        System.out.println(maxOverlap3(lines));
     }
 
     public static class Line {
