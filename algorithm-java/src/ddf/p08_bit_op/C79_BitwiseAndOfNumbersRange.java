@@ -5,7 +5,7 @@ import utils.DUtils;
 /**
  * <a href="https://leetcode.cn/problems/bitwise-and-of-numbers-range/submissions/613657009/">leetcode201.数字范围按位与</a>
  */
-public class C201_BitwiseAndOfNumbersRange {
+public class C79_BitwiseAndOfNumbersRange {
 
     public static int rangeBitwiseAnd(int left, int right) {
         while (left < right) {
